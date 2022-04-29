@@ -1,4 +1,6 @@
 isset($_POST['SUBMIT']) {
-	echo('hello world')
+	if($_POST['SUBMIT']) {
+	echo('You have clicked the button')
+}
 }
 
